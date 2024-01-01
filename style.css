@@ -49,8 +49,7 @@ body {
 
 .content {
     font-family: poppins;
-    padding-top: 20px;
-    padding-left: 6px;
+    margin: 20px 0px;
 }
 
 .button {

@@ -23,7 +23,14 @@ body {
     height: 100vh;
     background-size: cover;
 }
-
+.container{
+    .container{
+        border: 2px solid black;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+    }
+}
 .card {
     display: inline-block;
     background-color: white;
@@ -49,13 +56,16 @@ body {
 
 .content {
     font-family: poppins;
+    text-align: center;
     margin: 20px 0px;
 }
 
 .button {
     text-align: center;
 }
-
+.button button:hover{
+    background-color: rgb(115, 199, 248);
+}
 .button button {
     border: none;
     background-color: rgb(147, 210, 247);
@@ -72,7 +82,4 @@ body {
     text-decoration: none;
     border-color: none;
 
-}
-.button button:hover{
-    background-color: rgb(115, 199, 248);
 }
